@@ -1,0 +1,22 @@
+{
+  "name": "doccreator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8080",
+    "build": "vite build --port 8080",
+    "preview": "vite preview --port 8080"
+  },
+  "dependencies": {
+    "core-js": "3.25.5",
+    "vant": "^3.6.4",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0",
+    "vue-template-compiler": "^2.7.13"
+  }
+}
