@@ -1,12 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@interactjs/core': 1.10.2
+  '@interactjs/utils': 1.10.2
   '@vitejs/plugin-vue': ^3.1.0
   core-js: 3.25.5
   unplugin-vue-components: ^0.22.8
   vant: ^3.6.4
   vite: ^3.1.0
   vue: ^3.2.37
+  vue-grid-layout: 3.0.0-beta1
   vue-router: '4'
   vue-template-compiler: ^2.7.13
   vuex: ^4.0.2
@@ -15,10 +18,13 @@ dependencies:
   core-js: registry.npmmirror.com/core-js/3.25.5
   vant: registry.npmmirror.com/vant/3.6.4_vue@3.2.41
   vue: registry.npmmirror.com/vue/3.2.41
+  vue-grid-layout: registry.npmmirror.com/vue-grid-layout/3.0.0-beta1_oyguvmurtkltc2plhqtrncjgly
   vue-router: registry.npmmirror.com/vue-router/4.1.5_vue@3.2.41
   vuex: registry.npmmirror.com/vuex/4.0.2_vue@3.2.41
 
 devDependencies:
+  '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+  '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.1.2_vite@3.1.8+vue@3.2.41
   unplugin-vue-components: registry.npmmirror.com/unplugin-vue-components/0.22.8_vue@3.2.41
   vite: registry.npmmirror.com/vite/3.1.8
@@ -84,6 +90,241 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  registry.npmmirror.com/@interactjs/actions/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-BHJcW84WCMf/LsKmha/1Yog7aH3+QBXbLvowvZvwYvgjdUIb3xCa1a7FUYXuWAeKNMyKPVjFun+WPce75B+1tA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/actions/-/actions-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/actions/1.10.2
+    name: '@interactjs/actions'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/arrange/1.10.2:
+    resolution: {integrity: sha512-pPLA9o4RWMFN0VfalklOFSRLL4WqqXcD9no4XEuqV00goZPCxLBbMTztaWwnutlRy7evtOhUjUH+pZVsS+dZ4Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/arrange/-/arrange-1.10.2.tgz}
+    name: '@interactjs/arrange'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/auto-scroll/1.10.2_@interactjs+utils@1.10.2:
+    resolution: {integrity: sha512-yYqzOawwvWd1NNnlqZdzrXoOMFafQ2/ws85erpJqdaNMQE221z2uP+QYhFRLQRgYUlTbHFfmjDpzhuJgq4uA8Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/auto-scroll/-/auto-scroll-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/auto-scroll/1.10.2
+    name: '@interactjs/auto-scroll'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/auto-start/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-nZudj8VzJzz+uEyDHqXwtKpvUYr+Oj1+xBrJEu21CywroHQWM2J4fCIiCgeCo3d5/p/TrzFk5b+YfAWePKiLxA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/auto-start/-/auto-start-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/auto-start/1.10.2
+    name: '@interactjs/auto-start'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/clone/1.10.2:
+    resolution: {integrity: sha512-XzA8BRHSCwvysOegZ1kopg+IJF3erh4qzY6DRoZsIJovKAXawoa176E58IAzDbgYPJ2yoaSGT+XyzT2C0wa3pQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/clone/-/clone-1.10.2.tgz}
+    name: '@interactjs/clone'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2:
+    resolution: {integrity: sha512-SA5KRGo+gFJOhBj1Z2dLHhAf0/2nyHNd4SQ460aIQ3jj/QhqbJW6kGzmh7hBa2FzVGgxLhcQu7NZaP4rnDfUNw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/core/-/core-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/core/1.10.2
+    name: '@interactjs/core'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+
+  registry.npmmirror.com/@interactjs/dev-tools/1.10.2:
+    resolution: {integrity: sha512-aAd9NgTAGA3yVdFCYcAAYrM4TYQFuVqEvsF+xj+g5SlGyrJ7+GTjPZ2rScOyAsABY4Tz64L2pXvWmXMG87dncA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/dev-tools/-/dev-tools-1.10.2.tgz}
+    name: '@interactjs/dev-tools'
+    version: 1.10.2
+    dependencies:
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/feedback/1.10.2:
+    resolution: {integrity: sha512-XlcoICGrFeUwwRtDgOpstOOvlU42WZoEg7gJHK3LwF7j0IctPd1+3blXofFlBeVvodle8MvUMepm5CRXz741fA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/feedback/-/feedback-1.10.2.tgz}
+    name: '@interactjs/feedback'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/inertia/1.10.2_cahkz3orxpixn6e75croi5z5l4:
+    resolution: {integrity: sha512-ZmN1joN6J36Q6SOp3V0iZOisXZOBMSAUj0STo8wbwCKy7K8IrC9vjUBbO2JM52cT6o7hg5ebHsp5c8FrebSHlg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/inertia/-/inertia-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/inertia/1.10.2
+    name: '@interactjs/inertia'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/modifiers': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/modifiers': registry.npmmirror.com/@interactjs/modifiers/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/offset': registry.npmmirror.com/@interactjs/offset/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/interact/1.10.2:
+    resolution: {integrity: sha512-Ms5uVCY9IobVYpQyBnBdkP6Bk6iDY7TkC7GupsdUPUxzAvYSQCTEAGr/1PwxSrSS6dN/8O8TuyUWPbCaylr/JA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/interact/-/interact-1.10.2.tgz}
+    name: '@interactjs/interact'
+    version: 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/types': registry.npmmirror.com/@interactjs/types/1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/interactjs/1.10.2:
+    resolution: {integrity: sha512-OwLl70af6lfZOOg/bvWKSNm1DS1nDI72QnzDYljSKfc2D8stqLIGDO1wPY2rhZudUG5q3t50EhmMUQF76yll/g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/interactjs/-/interactjs-1.10.2.tgz}
+    name: '@interactjs/interactjs'
+    version: 1.10.2
+    dependencies:
+      '@interactjs/actions': registry.npmmirror.com/@interactjs/actions/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/arrange': registry.npmmirror.com/@interactjs/arrange/1.10.2
+      '@interactjs/auto-scroll': registry.npmmirror.com/@interactjs/auto-scroll/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/auto-start': registry.npmmirror.com/@interactjs/auto-start/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/clone': registry.npmmirror.com/@interactjs/clone/1.10.2
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/dev-tools': registry.npmmirror.com/@interactjs/dev-tools/1.10.2
+      '@interactjs/feedback': registry.npmmirror.com/@interactjs/feedback/1.10.2
+      '@interactjs/inertia': registry.npmmirror.com/@interactjs/inertia/1.10.2_cahkz3orxpixn6e75croi5z5l4
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+      '@interactjs/modifiers': registry.npmmirror.com/@interactjs/modifiers/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/multi-target': registry.npmmirror.com/@interactjs/multi-target/1.10.2
+      '@interactjs/offset': registry.npmmirror.com/@interactjs/offset/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/pointer-events': registry.npmmirror.com/@interactjs/pointer-events/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/react': registry.npmmirror.com/@interactjs/react/1.10.2
+      '@interactjs/reflow': registry.npmmirror.com/@interactjs/reflow/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+      '@interactjs/vue': registry.npmmirror.com/@interactjs/vue/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/modifiers/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-3wYEucvZF2NTIslnVIKw5MWhkn9LM42cGCQaC19o3LZeWnbps7NnHJCyQp6zylJrCbwt7f+CSt4Oj2/s0f6XEA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/modifiers/-/modifiers-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/modifiers/1.10.2
+    name: '@interactjs/modifiers'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/snappers': registry.npmmirror.com/@interactjs/snappers/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/multi-target/1.10.2:
+    resolution: {integrity: sha512-O2GiIqgZBzjAVTOpL8doTnAcM9AtM3+H/Bb+An12wWKtNutVK7JbqUAO2nYueOk55/PP3yDLY9Qdr15RJns3lQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/multi-target/-/multi-target-1.10.2.tgz}
+    name: '@interactjs/multi-target'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/offset/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-xLgQqinFUY7ZqSX9d9on7XRcxvQdHNEAktj2QFwxMsEwrA6zbKROpPVwt8WQ1yBAeJSFjgYGcmCMPW5K41dT0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/offset/-/offset-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/offset/1.10.2
+    name: '@interactjs/offset'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/pointer-events/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-O8s3N399hkGIzWGlcJVy0LJyDn5YWDh6XKjyowh/QivtlZSWPY8eglmlN2uZX0lmiqUYghbKI4CpQYP/cE0ZDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/pointer-events/-/pointer-events-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/pointer-events/1.10.2
+    name: '@interactjs/pointer-events'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/react/1.10.2:
+    resolution: {integrity: sha512-JXzPdANft+W2vq3SCSzprCwom5UuC8TaiAAhVdt8R+/P6xHbOeAX93XLS5YmDwT8e0Zh9J9jYvz55tkTdwjFZQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/react/-/react-1.10.2.tgz}
+    name: '@interactjs/react'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/reflow/1.10.2_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-pc6o6RRhSCYQC4auZexRb7z5FQkdSVev5HzlRfUAjfw4C076qgbcs63ESRKy4YXdSBtUTvARQZxpuWUNGquzJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/reflow/-/reflow-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/reflow/1.10.2
+    name: '@interactjs/reflow'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/core': 1.10.2
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/core': registry.npmmirror.com/@interactjs/core/1.10.2_@interactjs+utils@1.10.2
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    optionalDependencies:
+      '@interactjs/interact': registry.npmmirror.com/@interactjs/interact/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/snappers/1.10.2_@interactjs+utils@1.10.2:
+    resolution: {integrity: sha512-wQ41Vn5GRn6VavjIEUtTkd9d5QgdKgC4+CPW0fjKkiQclLBmaic7VibNETO8twN0Jx5e73EoPj9K2nAVHIA0hA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/snappers/-/snappers-1.10.2.tgz}
+    id: registry.npmmirror.com/@interactjs/snappers/1.10.2
+    name: '@interactjs/snappers'
+    version: 1.10.2
+    peerDependencies:
+      '@interactjs/utils': 1.10.2
+    dependencies:
+      '@interactjs/utils': registry.npmmirror.com/@interactjs/utils/1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/types/1.10.2:
+    resolution: {integrity: sha512-l0T1bU8OHRv716ztQOYwP+K7b/lA76C0T3r/cdabbUv6CKeAFdFRRFlmNxYOM36SxMGWAiq5VWrN3SeXlB7Fow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/types/-/types-1.10.2.tgz}
+    name: '@interactjs/types'
+    version: 1.10.2
+    dev: false
+
+  registry.npmmirror.com/@interactjs/utils/1.10.2:
+    resolution: {integrity: sha512-sOr+pu7XGAN4qv+ikajMo3RJygbkbMLegmx0Tv5Qf6e80sF42FjkmHeMGuV7fL98nwat0VmDiWerOFBnKctXow==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/utils/-/utils-1.10.2.tgz}
+    name: '@interactjs/utils'
+    version: 1.10.2
+
+  registry.npmmirror.com/@interactjs/vue/1.10.2:
+    resolution: {integrity: sha512-msLdc42DFsCPQZt6YBGZrw8Ro23kQcNnj+iLz2OUQcOrp/lma7WjorUuAwwfyFna2DevLtiYlMLbT0dpO/cVhg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@interactjs/vue/-/vue-1.10.2.tgz}
+    name: '@interactjs/vue'
+    version: 1.10.2
+    dev: false
 
   registry.npmmirror.com/@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz}
@@ -278,6 +519,12 @@ packages:
     version: 1.0.2
     dev: true
 
+  registry.npmmirror.com/batch-processor/1.0.0:
+    resolution: {integrity: sha512-xoLQD8gmmR32MeuBHgH0Tzd5PuSZx71ZsbhVxOCRbgktZEPe4SQy7s9Z50uPp0F/f7iw2XmkHN2xkgbMfckMDA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/batch-processor/-/batch-processor-1.0.0.tgz}
+    name: batch-processor
+    version: 1.0.0
+    dev: false
+
   registry.npmmirror.com/binary-extensions/2.2.0:
     resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/binary-extensions/-/binary-extensions-2.2.0.tgz}
     name: binary-extensions
@@ -350,6 +597,14 @@ packages:
     dependencies:
       ms: registry.npmmirror.com/ms/2.1.2
     dev: true
+
+  registry.npmmirror.com/element-resize-detector/1.2.4:
+    resolution: {integrity: sha512-Fl5Ftk6WwXE0wqCgNoseKWndjzZlDCwuPTcoVZfCP9R3EHQF8qUtr3YUPNETegRBOKqQKPW3n4kiIWngGi8tKg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/element-resize-detector/-/element-resize-detector-1.2.4.tgz}
+    name: element-resize-detector
+    version: 1.2.4
+    dependencies:
+      batch-processor: registry.npmmirror.com/batch-processor/1.0.0
+    dev: false
 
   registry.npmmirror.com/esbuild-android-64/0.15.11:
     resolution: {integrity: sha512-rrwoXEiuI1kaw4k475NJpexs8GfJqQUKcD08VR8sKHmuW9RUuTR2VxcupVvHdiGh9ihxL9m3lpqB1kju92Ialw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/esbuild-android-64/-/esbuild-android-64-0.15.11.tgz}
@@ -768,6 +1023,12 @@ packages:
       brace-expansion: registry.npmmirror.com/brace-expansion/2.0.1
     dev: true
 
+  registry.npmmirror.com/mitt/2.1.0:
+    resolution: {integrity: sha512-ILj2TpLiysu2wkBbWjAmww7TkZb65aiQO+DkVdUTBpBXq+MHYiETENkKFMtsJZX1Lf4pe4QOrTSjIfUwN5lRdg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mitt/-/mitt-2.1.0.tgz}
+    name: mitt
+    version: 2.1.0
+    dev: false
+
   registry.npmmirror.com/ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz}
     name: ms
@@ -987,6 +1248,24 @@ packages:
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents/2.3.2
     dev: true
+
+  registry.npmmirror.com/vue-grid-layout/3.0.0-beta1_oyguvmurtkltc2plhqtrncjgly:
+    resolution: {integrity: sha512-MsW0yfYNtnAO/uDhfZvkP6effxSJxvhAFbIL37x6Rn3vW9xf0WHVefKaSbQMLpSq3mXnR6ut0pg2Cd5lqIIZzg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-grid-layout/-/vue-grid-layout-3.0.0-beta1.tgz}
+    id: registry.npmmirror.com/vue-grid-layout/3.0.0-beta1
+    name: vue-grid-layout
+    version: 3.0.0-beta1
+    dependencies:
+      '@interactjs/actions': registry.npmmirror.com/@interactjs/actions/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/auto-start': registry.npmmirror.com/@interactjs/auto-start/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      '@interactjs/dev-tools': registry.npmmirror.com/@interactjs/dev-tools/1.10.2
+      '@interactjs/interactjs': registry.npmmirror.com/@interactjs/interactjs/1.10.2
+      '@interactjs/modifiers': registry.npmmirror.com/@interactjs/modifiers/1.10.2_oyguvmurtkltc2plhqtrncjgly
+      element-resize-detector: registry.npmmirror.com/element-resize-detector/1.2.4
+      mitt: registry.npmmirror.com/mitt/2.1.0
+    transitivePeerDependencies:
+      - '@interactjs/core'
+      - '@interactjs/utils'
+    dev: false
 
   registry.npmmirror.com/vue-router/4.1.5_vue@3.2.41:
     resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vue-router/-/vue-router-4.1.5.tgz}

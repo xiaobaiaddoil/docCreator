@@ -17,5 +17,5 @@ export default defineConfig({
             "component": resolve(__dirname, "src/components/components"),
             "layout": resolve(__dirname, "src/components/layout"),
         }
-    }
+    },
 })
